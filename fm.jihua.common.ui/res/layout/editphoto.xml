@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>  
+<RelativeLayout      
+        android:layout_width="fill_parent"   
+        xmlns:android="http://schemas.android.com/apk/res/android"   
+        android:layout_height="wrap_content"   
+        android:id="@+id/editphoto"   
+        android:orientation="vertical"       
+        android:padding="3sp">
+
+    	<ImageView android:src="@drawable/camera" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content" 
+    	android:id="@+id/itemimage" 
+    	android:gravity="center"
+    	android:paddingLeft="30dp"
+    	android:paddingRight="30dp"
+    	android:paddingTop="10dp"
+    	android:paddingBottom="10dp"
+    	></ImageView>
+        <TextView         
+        android:layout_toRightOf="@+id/itemimage"
+        android:layout_alignBottom="@+id/itemimage"
+        android:layout_height="fill_parent" 
+    	android:layout_width="fill_parent" 
+        android:text="手机拍照" 
+        android:textSize="20sp" 
+        android:id="@+id/itemtitle" 
+        android:gravity="center|left"
+        android:padding="6sp" 
+        android:textColor="@color/black"></TextView>
+        
+
+    
+  
+
+    
+    </RelativeLayout> 

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:id="@+id/image"
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        android:visibility="gone" >
+        
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/white_bg_with_top_and_bottom_line"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/correct_name_parent"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:text="正确题数"
+                android:textColor="@color/textcolor_4c"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/correct_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:text="@null"
+                android:textColor="@color/textcolor_80"
+                android:textSize="16sp" />
+        </LinearLayout>
+        
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/black_alpha_20" />
+        
+        <LinearLayout
+            android:id="@+id/done_name_parent"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:text="已做题数"
+                android:textColor="@color/textcolor_4c"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/done_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:text="@null"
+                android:textColor="@color/textcolor_80"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/check"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="查看已做题目"
+        android:textColor="@color/actionbar_background"
+        android:textSize="16sp" 
+        android:background="@drawable/selector_white_bg_with_line"/>
+
+</LinearLayout>

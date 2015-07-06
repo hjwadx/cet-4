@@ -1,0 +1,46 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="XWindowTitle">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:shadowColor">@color/black</item>
+        <item name="android:shadowRadius">0</item>
+    </style>
+    
+    <style name="StatusBarBackground">
+        <item name="android:background">@color/black</item>
+    </style>
+    
+    <style name="shadow_background">
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginTop">8dp</item> 
+        <item name="android:background">@drawable/bg_shadow</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    
+    <style name="style_horizontal_layout_with_click_effect" parent="@android:style/Animation">
+        <item name="android:background">@color/white_item_selector_linearlayout_bg</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:minHeight">@dimen/home_menu_core_item_height</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+</resources>

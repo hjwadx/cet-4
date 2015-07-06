@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Theme">
+		<!-- Default style for the Switch widget. -->
+		<attr name="textAppearance" format="reference" />
+        <attr name="switchStyle" format="reference" />
+	</declare-styleable>
+    <declare-styleable name="Switch">
+        <!-- Drawable to use as the "thumb" that switches back and forth. -->
+        <attr name="android:thumb" />
+        <!-- Drawable to use as the "track" that the switch thumb slides within. -->
+        <attr name="track" format="reference" />
+        <!-- Text to use when the switch is in the checked/"on" state. -->
+        <attr name="android:textOn" />
+        <!-- Text to use when the switch is in the unchecked/"off" state. -->
+        <attr name="android:textOff" />
+        <!-- Amount of padding on either side of text within the switch thumb. -->
+        <attr name="thumbTextPadding" format="dimension" />
+        <!-- TextAppearance style for text displayed on the switch thumb. -->
+        <attr name="switchTextAppearance" format="reference" />
+        <!-- Minimum width for the switch component -->
+        <attr name="switchMinWidth" format="dimension" />
+        <!-- Minimum space between the switch and caption text -->
+        <attr name="switchPadding" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="TextAppearance">
+        <!-- Text color. -->
+        <attr name="android:textColor" />
+        <!-- Size of the text. Recommended dimension type for text is "sp" for scaled-pixels (example: 15sp). -->
+        <attr name="android:textSize" />
+        <!-- Style (bold, italic, bolditalic) for the text. -->
+        <attr name="android:textStyle" />
+        <!-- Typeface (normal, sans, serif, monospace) for the text. -->
+        <attr name="android:typeface" />
+        <!-- Color of the text selection highlight. -->
+        <attr name="android:textColorHighlight" />
+        <!-- Color of the hint text. -->
+        <attr name="android:textColorHint" />
+        <!-- Color of the links. -->
+        <attr name="android:textColorLink" />
+        <!-- Present the text in ALL CAPS. This may use a small-caps form when available. -->
+        <attr name="textAllCaps" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="GifMoviewView">
+        <attr name="gif" format="reference" />
+        <attr name="paused" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="CustomTheme">
+        <attr name="gifMoviewViewStyle" format="reference" />
+    </declare-styleable>
+    
+    <declare-styleable name="LinearSetting">
+        <attr name="parentId" format="reference" />
+        <attr name="titleName" format="string" />
+        <attr name="contentId" format="reference" />
+        <attr name="titleId" format="reference" />
+        <attr name="toggleId" format="reference" />
+        <attr name="highLightId" format="reference" />
+        <attr name="oauthBindId" format="reference" />
+        <attr name="oauthBindDoneId" format="reference" />
+        <attr name="imageIcon" format="reference" />
+        <attr name="oauthBindText" format="string" />
+        <attr name="oauthBindDoneText" format="string" />
+        <attr name="contentHint" format="string" />
+        <attr name="layoutType" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="vertical" value="1" />
+            <enum name="toggle" value="2" />
+            <enum name="oauth" value="3" />
+            <enum name="highlight" value="4" />
+            <enum name="imageIcon" value="5" />
+        </attr>
+        <attr name="backgroundType" format="enum">
+            <enum name="top" value="0" />
+            <enum name="middle" value="1" />
+            <enum name="bottom" value="2" />
+            <enum name="single" value="3" />
+        </attr>
+        <attr name="visibility" format="enum">
+            <enum name="visiable" value="0" />
+            <enum name="gone" value="1" />
+        </attr>
+
+    </declare-styleable>
+    
+    <declare-styleable name="ImageTextViewSetting">
+        <attr name="drawableWidth" format="dimension" />
+        <attr name="drawableHeight" format="dimension" />
+        <attr name="background_color" format="reference" />
+        <attr name="text" format="string" />
+        <attr name="drawableLeftImage" format="reference" />
+        <attr name="shadowParentId" format="reference" />
+    </declare-styleable>
+    
+    <declare-styleable name="CachedImageView">
+        <attr name="isSquare" format="boolean" />
+    </declare-styleable>
+    
+    <declare-styleable name="LinearEditView">
+        <attr name="editTitle" format="string"/>
+        <attr name="editHint" format="string"/>
+        <attr name="textContent" format="string"/>
+        <attr name="textContentId" format="reference"/>
+        <attr name="editTextId" format="reference"/>
+        <attr name="dividerType" format="enum">
+            <enum name="top" value="0"/>
+            <enum name="bottom" value="1"/> 
+            <enum name="none" value="2"/> 
+            <enum name="both" value="3"/> 
+        </attr>
+        <attr name="editType" format="enum">
+            <enum name="edit_text" value="0" />
+            <enum name="edit_select" value="1" />
+            <enum name="edit_sex" value="2" />
+        </attr>
+    </declare-styleable>
+
+</resources>

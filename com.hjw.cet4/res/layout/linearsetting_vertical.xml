@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="12dp"
+    android:paddingRight="10dp"
+    android:background="@color/white_item_selector_linearlayout_bg"
+    android:minHeight="@dimen/home_menu_core_item_height_double_line"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:clickable="true" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:minHeight="@dimen/home_menu_core_item_height_double_line"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/home_menu_core_item_height"
+            android:textColor="@color/textcolor_4c"
+            android:gravity="center_vertical"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:textColor="@color/textcolor_80"
+            android:textSize="15sp"
+            android:layout_marginTop="-3dp"
+            android:layout_marginBottom="7dp"
+            android:gravity="top">
+        </TextView>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:src="@drawable/myprofile_list_icon_arrow" />
+
+</LinearLayout>

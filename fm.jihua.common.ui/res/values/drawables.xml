@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="ltgray">#fff4f4f4</item>
+    <item type="drawable" name="ltyellow">#fffff4db</item>
+    <item type="drawable" name="black">#ff000000</item>
+    <item type="drawable" name="white">#ffffffff</item>
+    <item type="drawable" name="transparent_background">#99000000</item>
+    <item type="drawable" name="chat_msg">#ff545454</item>
+    <item type="drawable" name="darkgray">#ff404040</item>
+    <item type="drawable" name="red">#ffff00ff</item>
+    <item type="drawable" name="green">#ff00ff00</item>
+    <item type="drawable" name="lightgray">#ffc0c0c0</item>
+    <item type="drawable" name="yellow">#ffffff00</item>
+    <item type="drawable" name="blue">#ff00ffff</item>
+    <item type="drawable" name="gray">#ff808080</item>
+    <item type="drawable" name="magenta">#fffff0ff</item>
+    <item type="drawable" name="cyan">#ff00ffff</item>
+</resources>

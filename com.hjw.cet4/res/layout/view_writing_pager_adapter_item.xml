@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"
+            android:paddingTop="1px"
+            android:paddingBottom="1px"
+            android:background="@drawable/white_bg_with_top_and_bottom_line"
+            android:orientation="vertical" >
+
+            <com.hjw.cet4.ui.widget.CachedImageView
+                android:id="@+id/picture"
+                android:background="@drawable/white_bg_with_bottom_line"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:visibility="gone"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/subject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:textColor="@color/textcolor_4c"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/show_answer"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/selector_white_bg_with_top_line"
+                android:gravity="center"
+                android:text="显示答案"
+                android:textColor="@color/textcolor_b2"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:background="@drawable/white_bg_with_top_line"
+                android:textColor="@color/textcolor_4c"
+                android:textSize="15sp"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

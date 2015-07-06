@@ -1,0 +1,192 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hjw.cet4"
+    android:versionCode="3"
+    android:versionName="1.2" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="18" />
+    
+    <!-- Allows access to the Download Manager -->
+    <permission
+        android:name="com.mozillaonline.permission.ACCESS_DOWNLOAD_MANAGER"
+        android:description="@string/permdesc_downloadManager"
+        android:label="@string/permlab_downloadManager"
+        android:protectionLevel="normal" />
+
+    <!-- Allows advanced access to the Download Manager -->
+    <permission
+        android:name="com.mozillaonline.permission.ACCESS_DOWNLOAD_MANAGER_ADVANCED"
+        android:description="@string/permdesc_downloadManagerAdvanced"
+        android:label="@string/permlab_downloadManagerAdvanced"
+        android:protectionLevel="normal" />
+
+    <!-- Allows to send broadcasts on download completion -->
+    <permission
+        android:name="com.mozillaonline.permission.SEND_DOWNLOAD_COMPLETED_INTENTS"
+        android:description="@string/permdesc_downloadCompletedIntent"
+        android:label="@string/permlab_downloadCompletedIntent"
+        android:protectionLevel="normal" />
+
+    <uses-permission android:name="com.mozillaonline.permission.ACCESS_DOWNLOAD_MANAGER" />
+    <uses-permission android:name="com.mozillaonline.permission.ACCESS_DOWNLOAD_MANAGER_ADVANCED" />
+    <uses-permission android:name="com.mozillaonline.permission.SEND_DOWNLOAD_COMPLETED_INTENTS" />
+    
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    
+    <!--以下为必须的权限 -->
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <!--以下为可选的权限 --> <!--该权限实现拨打电话功能，不需要此功能的开发者可以不添加该权限-->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!--该权限实现发注册短信功能，不需要获取用户短信号码的开发者可以不添加该权限-->
+    <!-- <uses-permission android:name="android.permission.SEND_SMS" /> -->
+    <!--该权限实现读/写短/彩信箱功能，不需要此功能的开发者可以不添加该权限，这两项权限不能只配置其中一项，需要一起配置-->
+    <!-- <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" /> -->
+    
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- V1.2.3新增的权限, GET_TASKS用于检测APP是否处于前台、是否活着；REORDER_TASKS用于将APP切换到前台 -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+
+    <application
+        android:name="com.hjw.cet4.App"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/XTheme.Slide" >
+        <activity android:name=".ui.activity.TextViewerActivity" />
+        <activity android:name=".ui.activity.writing.WritingActivity" />
+        <activity android:name=".ui.activity.translate.TranslateActivity" />
+        <activity android:name=".ui.activity.word.WordActivity" />
+        <activity android:name=".ui.activity.word.WordSelectActivity" />
+        <activity android:name=".ui.activity.reading.ReadingAmountSelectActivity" />
+        <activity android:name=".ui.activity.reading.ReadingActivity" />
+        
+        <activity android:name=".ui.activity.listening.ListeningAmountSelectActivity" />
+        <activity android:name=".ui.activity.listening.ListeningActivity" />
+        <activity android:name=".ui.activity.listening.ListeningResultActivity" />
+        <activity android:name=".ui.activity.listening.DictationActivity" />
+        
+        <activity android:name=".ui.activity.practice.PracticeActivity" />
+        <activity android:name=".ui.activity.practice.PracticeResultActivity" />
+        
+        <activity android:name=".ui.activity.uniterm.TypeSelectActivity" />
+        
+        <activity android:name=".ui.activity.setting.StatisticsActivity" />
+        <activity
+            android:name="com.hjw.cet4.ui.activity.main.MainTabActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+         <!-- 友盟反馈	 -->
+        <activity
+            android:name="com.umeng.fb.ui.SendFeedback"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name="com.umeng.fb.ui.FeedbackConversations" />
+        <activity
+            android:name="com.umeng.fb.ui.FeedbackConversation"
+            android:configChanges="keyboard" />
+        
+        <!-- 友盟应用联盟 -->
+        <service
+            android:name="com.umeng.common.net.DownloadingService"
+            android:exported="true"
+            android:process=":DownloadingService" >
+        </service>
+        
+        <!-- 正式 -->
+        <meta-data android:value="5292db1856240b9483115d5e" android:name="UMENG_APPKEY"></meta-data>
+        <!--Web hiapk appchina anzhi google gfan mumayi nduoa 360 91 eoe babe 163 umengxp oppo wandoujia wo sanxing baidu mm sina xiaomi tianyi 3g hicloud devcn taobao renren le meizu-->
+        <meta-data android:value="Web" android:name="UMENG_CHANNEL"/>
+        <!-- 测试 -->
+        <!-- <meta-data android:value="4fadda4052701564e200003b" android:name="UMENG_APPKEY"></meta-data> -->
+        
+        <!--  umeng消息推送 -->
+        <meta-data
+            android:name="UMENG_MESSAGE_SECRET"
+            android:value="8404f3cb10795a5db801da15d3943550" >
+        </meta-data>
+
+        <receiver
+            android:name="com.umeng.message.NotificationProxyBroadcastReceiver"
+            android:exported="false" >
+        </receiver>
+        <receiver android:name="com.umeng.message.RegistrationReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.umeng.message.UmengBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="org.agoo.android.intent.action.RECEIVE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.hjw.cet4.intent.action.COMMAND" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="org.agoo.android.intent.action.RE_ELECTION_V2" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.umeng.message.UmengService"
+            android:exported="true"
+            android:process=":umengService_v1" >
+            <intent-filter>
+                <action android:name="com.hjw.cet4.intent.action.START" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.hjw.cet4.intent.action.COCKROACH" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="org.agoo.android.intent.action.PING" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="org.android.agoo.service.ElectionService"
+            android:exported="true"
+            android:process=":umengService_v1" >
+            <intent-filter>
+                <action android:name="org.agoo.android.intent.action.ELECTION_V2" />
+            </intent-filter>
+        </service>
+        <service android:name="com.umeng.message.UmengIntentService" />
+        
+        <provider
+            android:name="com.mozillaonline.providers.downloads.DownloadProvider"
+            android:authorities="com.mozillaonline.cet4.downloads" />
+
+        <service android:name="com.mozillaonline.providers.downloads.DownloadService" />
+
+        <receiver
+            android:name="com.mozillaonline.providers.downloads.DownloadReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

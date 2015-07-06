@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <View
+        android:id="@+id/topline"
+        android:layout_width="match_parent"
+        android:layout_marginTop="25dp"
+        android:layout_height="1px"
+        android:visibility="gone"
+        android:background="@color/black_alpha_20" />
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@color/white_item_selector_linearlayout_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:text="@null"
+                android:textColor="@color/textcolor_4c"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@null"
+                android:textSize="12sp" />
+        </LinearLayout>
+        
+        <ProgressBar 
+            android:id="@+id/progressBar" 
+            style="?android:attr/progressBarStyleHorizontal" 
+            android:layout_width="match_parent" 
+            android:layout_height="match_parent" 
+            android:indeterminate="false" 
+            android:progress="100"
+            android:visibility="gone"
+            android:progressDrawable="@drawable/progress_horizontal1" /> 
+    </FrameLayout>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/black_alpha_20" />
+
+</LinearLayout>

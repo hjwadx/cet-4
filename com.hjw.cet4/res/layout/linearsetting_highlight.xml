@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/home_menu_core_item_height"
+    android:background="@color/white_item_selector_linearlayout_bg"
+    android:clickable="true"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="12dp"
+    android:paddingRight="10dp" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="@dimen/home_menu_core_item_height"
+        android:textColor="@color/textcolor_4c"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/highlight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="6dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:text="new"
+        android:textColor="#fa7886"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="10dp"
+        android:drawableRight="@drawable/myprofile_list_icon_arrow"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="right|center_vertical"
+        android:textColor="@color/textcolor_80"
+        android:textSize="15sp" />
+
+</LinearLayout>

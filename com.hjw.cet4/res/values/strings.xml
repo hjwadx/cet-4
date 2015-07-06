@@ -1,0 +1,63 @@
+<resources>
+
+    <string name="app_name">四级考霸</string>
+    <string-array name="celebrated_dictum">
+        <item >Behind every successful man there\'s a lot u unsuccessful years.</item>
+        <item >I think success has no rules, but you can learn a lot from failure.</item>
+        <item >There are no secrets to success. It is the result of preparation, hard work, and learning from failure.</item>
+        <item >Few things are impossible in themselves; and it is often for want of will, rather than of means, that man fails to succeed.</item>
+        <item >Genius only means hard-working all one\'s life.</item>
+        <item >Great works are performed not by strengh, but by perseverance.</item>
+        <item >I have nothing to offer but blood, boil, tears and sweat.</item>
+        <item >All things are difficult before they are easy.</item>
+        <item >Constant dripping wears away the stone.</item>
+        <item >The first blow is half the battle.</item>
+        <item >The man who has made up his mind to win will never say "impossible ".</item>
+        <item >All things in their being are good for something.</item>
+        <item >Difficult circumstances serve as a textbook of life for people.</item>
+        <item >There is no such thing as a great talent without great will - power.</item>
+        <item >The good seaman is known in bad weather.</item>
+        <item >While there is life there is hope.</item>
+        <item >You have to believe in yourself. That\'s the secret of success.</item>
+        <item >A thousand-li journey is started by taking the first step.</item>
+        <item >A strong man will struggle with the storms of fate.</item>
+    </string-array>
+    
+    <string name="guide">关于2013年12月大学英语四、六级考试关材料及说明
+        \n\n1． 试卷构成
+        \n四级和六级的试卷构成相同，由写作、听力理解、阅读理解和翻译四个部分组成，分值比例为：写作15%%，听力35%%，阅读35%%，翻译15%%。考试时间为130分钟。
+        \n\n2． 题型描述
+        \n\n1)      写作
+        \n写作部分测试学生用英语进行书面表达的能力，所占分值比例为15%%，考试时间30分钟。写作测试选用考生所熟悉的题材，要求考生根据所提供的信息及提示（如：提纲、情景、图片或图表等）写出一篇短文，四级120-180词，六级150-200词。
+        \n\n2)      听力理解
+        \n听力理解部分测试学生获取口头信息的能力。录音材料用标准的英式或美式英语朗读，语速四级约每分钟130词，六级约每分钟150词。听力部分分值比例为35%%，其中对话占15%%，短文占20%%。考试时间30分钟。对话部分包括短对话和长对话，采用多项选择题的形式进行考核。短对话有8段，每段提一个问题；长对话有2段，每段提3-4个问题；对话部分共15题。每段对话均朗读一遍，每个问题后留有13-15秒的答题时间。短文部分包括短文理解及单词和词组听写。短文理解有3篇，采用多项选择题的形式进行考核。四级每篇长度为220-250词，六级为240-270词。每篇短文朗读一遍，提3-4个问题，每个问题后留有13-15秒的答题时间，共10题。单词及词组听写采用1篇短文，四级的长度为220-250词，六级为240-270词。要求考生在听懂短文的基础上用所听到的原文填写空缺的单词或词组，共10题。短文播放三遍。
+        \n\n3)      阅读理解
+        \n阅读理解部分包括1篇长篇阅读和3篇仔细阅读，测试学生在不同层面上的阅读理解能力，包括理解篇章或段落的主旨大意和重要细节、综合分析、推测判断以及根据上下文推测词义等能力。该部分所占分值比例为35%%，其中长篇阅读占10%%，仔细阅读占25%%。考试时间40分钟。长篇阅读部分采用1篇较长篇幅的文章，总长度四级约1000词，六级约1200词。阅读速度四级约每分钟100词；六级约每分钟120词。篇章后附有10个句子，每句一题。每句所含的信息出自篇章的某一段落，要求考生找出与每句所含信息相匹配的段落。有的段落可能对应两题，有的段落可能不对应任何一题。仔细阅读部分要求考生阅读3篇短文。2篇为多项选择题型的短文理解测试，每篇长度四级为300-350词，六级为400-450词；1篇为选词填空，篇章长度四级为200-250词，六级为250-300词。短文理解每篇后有若干个问题，要求考生根据对文章的理解，从每题的四个选项中选择最佳答案。选词填空要求考生阅读一篇删去若干词汇的短文，然后从所给的选项中选择正确的词汇填空，使短文复原。
+        \n\n4)      翻译
+        \n翻译部分测试学生把汉语所承载的信息用英语表达出来的能力，所占分值比例为15%%，考试时间30分钟。翻译题型为段落汉译英。翻译内容涉及中国的历史、文化、经济、社会发展等。四级长度为140-160个汉字，六级长度为180-200个汉字。
+        \n\n3．分数解释
+        \n大学英语四、六级考试是标准相关-常模参照的标准化考试。标准相关体现在：1）试卷各部分的设计和命题参照大学英语的教学要求规定的技能和标准；2）写作和翻译部分的阅卷依据评分标准。常模参照体现在考后各部分的原始分转换成报道分时，分别参照各部分的常模。因此，考试既是标准相关又具有常模参照的性质。大学英语四、六级考试不设及格线。经过等值处理后的原始总分参照总分常模转换成常模正态分，均值为500、标准差为70，报道总分在220分至710分之间。在将原始分转换成报道分时，各部分采用不同的分数量表，从而使各部分报道分的简单相加之和等于报道总分。采用常模参照旨在保证考试分数解释的稳定性。考生的任何一次四、六级考试成绩均可在四级或六级常模中找到其百分位位置，即考生成绩在相应级别的常模群体中所处的相对位置。考试委员会网站上（http://www.cet.edu.cn）已公布了总分和各部分的百分位对照表，以供考试成绩使用者了解考生的相对能力水平。
+        \n\n4．成绩报道
+        \n成绩报道分为总分和单项分。单项分包括：1）听力，2）阅读，3）翻译和写作。每次考试后，考试委员会向总分在220分及以上的考生发放成绩报告单，报告其总分和各部分的单项分。考试委员会同时向参加考试的各个院校提供该校考生的成绩（总分和各部分单项分）和有关该校的各种统计数据。
+        \n\n5．评分标准
+        \n\n1)      作文评分标准
+        \n本题满分为15分，成绩分为六个档次：13-15分、10-12分、7-9分、4-6分、1-3分和0分。各档次的评分标准见下表：
+        \n\n13-15分    切题。表达思想清楚，文字通顺、连贯，基本上无语言错误，仅有个别小错。
+        \n\n10-12分    切题。表达思想清楚，文字较连贯，但有少量语言错误。
+        \n\n7-9分     基本切题。有些地方表达思想不够清楚，文字勉强连贯；语言错误相当多，其中有一些是严重错误。
+        \n\n4-6分      基本切题。表达思想不清楚，连贯性差。有较多的严重语言错误。
+        \n\n1-3分      条理不清，思路紊乱，语言支离破碎或大部分句子均有错误，且多数为严重错误。
+        \n\n0分        未作答，或只有几个孤立的词，或作文与主题毫不相关。
+        \n\n2)      翻译评分标准
+        \n本题满分为15分，成绩分为六个档次：13-15分、10-12分、7-9分、4-6分、1-3分和0分。各档次的评分标准见下：
+        \n\n13-15分    译文准确表达了原文的意思。用词贴切，行文流畅，基本上无语言错误，仅有个别小错。
+        \n\n10-12分    译文基本上表达了原文的意思。文字通顺、连贯，无重大语言错误。
+        \n\n7-9分      译文勉强表达了原文的意思。用词欠准确，语言错误相当多，其中有些是严重语言错误。
+        \n\n4-6分      译文仅表达了一小部分原文的意思。用词不准确，有相当多的严重语言错误。
+        \n\n1-3分      译文支离破碎。除个别词语或句子，绝大部分文字没有表达原文意思。
+        \n\n0分        未作答，或只有几个孤立的词，或译文与原文毫不相关。</string>
+        
+    <string name="weibo_auth_error">微博验证出错:%1$s</string>
+    <string name="get_friends_info_error">获取好友信息出错了</string>
+
+</resources>

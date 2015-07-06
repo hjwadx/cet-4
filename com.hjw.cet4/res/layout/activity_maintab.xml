@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TabHost
+        android:id="@android:id/tabhost"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="50dp" />
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/tab_widget_height"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:showDividers="none"
+            android:background="@drawable/toolbar_bg_repeat"
+            android:fadingEdge="none"
+            android:fadingEdgeLength="0.0px" />
+    </TabHost>
+
+</RelativeLayout>

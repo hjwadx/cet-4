@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    style="@style/style_horizontal_layout_with_click_effect" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="QQ"
+        android:textColor="@color/textcolor_4c"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/bind"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="10dp"
+        android:drawableRight="@drawable/myprofile_list_icon_arrow"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="right|center_vertical"
+        android:text="点击绑定QQ"
+        android:textColor="@color/textcolor_80"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/bind_done"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="10dp"
+        android:drawableRight="@drawable/myprofile_list_icon_arrow"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="right|center_vertical"
+        android:text="已绑定"
+        android:textColor="@color/textcolor_80"
+        android:textSize="15sp"
+        android:visibility="gone" />
+
+</LinearLayout>

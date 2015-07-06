@@ -1,0 +1,47 @@
+<resources>
+	<color name="frame">#5B5148</color>
+	<color name="front">#9DA28B</color>
+	<color name="back">#EBEBD3</color>
+	<color name="text">#898272</color>
+	<color name="white">#FFFFFF</color>
+	<color name="lavender">#E6E6FA</color>	
+	<color name="black">#000000</color>
+	<color name="gray">#363636</color>
+	<color name="green">#228B22</color>
+	<color name="red">#FF7256</color>
+	<color name="purple">#330033</color>
+	<color name="title">#F0F5F6</color>
+	<color name="name">#777777</color>
+	<color name="time">#97A3AE</color>
+	<color name="private_time">#B4BDC6</color>
+	<color name="body">#5D5D5D</color>
+	<color name="private_body">#525459</color>
+	<color name="button">#DDDDDD</color>
+	<color name="floatview">#696969</color>
+	<color name="background">#e6e9ec</color>
+	<color name="smilesbackground">#ecf2f7</color>
+	<color name="footbutton">#6e7174</color>
+	<color name="imageborder">#939597</color>
+	<color name="gallerybackground">#32333C</color>
+	<color name="editname">#A2CFE0</color>
+	<color name="profiletitle">#525252</color>
+	<color name="profilecontent">#7C7B7B</color>
+	<color name="athighlight">#FFBA43</color>
+	<color name="profile_button_text">#F3F3F3</color>
+	<color name="profile_sub_title">#444444</color>
+	<color name="profile_nick">#328CA2</color>
+	<color name="profile_status">#555555</color>
+	<color name="profile_dist">#666666</color>
+	<color name="intro_bg">#2D2D2D</color>
+	<color name="course_divider_bottom">#CDCDCD</color>
+	<color name="course_divider_top">#FFFFFF</color>
+	<color name="gray_lighter">#EEEEEE</color>
+	<color name="gray_light">#CDCDCD</color>
+	<color name="gray_dark">#666666</color>
+	<color name="gray_darker">#333333</color>
+	<color name="gray_light_dark">#909090</color>
+	
+	<color name="quickcontact_list_divider">#ffcdcdcd</color>
+    <color name="quickcontact_list_background">#ffe2e2e2</color>
+    <color name="quickcontact_tab_indicator">#ff33b5e6</color>
+</resources>

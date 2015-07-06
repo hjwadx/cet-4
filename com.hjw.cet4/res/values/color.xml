@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+	<color name="white">#FFFFFF</color>
+	<color name="black">#000000</color>
+    <color name="chartreuse">#60d0c6</color>   
+    <color name="ivory">#dce1e0</color>
+	<color name="gray_darker">#333333</color>
+	<color name="gray_dark">#787878</color>
+	<color name="course_divider_bottom">#CDCDCD</color>
+	
+	<color name="content_dark">#4c4c4c</color>
+	<color name="content_light">#787878</color>
+	
+	
+	<color name ="transparent">#00000000</color >
+    <color name ="weekview_corner">#d6d5d0</color >
+    <color name="app_background">#f6f8f9</color>
+    
+    <color name="textcolor_4c">#4c4c4c</color>
+    <color name="textcolor_66">#666666</color>
+    <color name="textcolor_80">#808080</color>
+    <color name="textcolor_b2">#b2b2b2</color>
+    <color name="black_alpha_50">#80000000</color>
+    <color name="black_alpha_20">#33000000</color>
+    <color name="black_alpha_12">#1f000000</color>
+    <color name="black_alpha_07">#12000000</color>
+    <color name="black_alpha_03">#07000000</color>
+    <color name="white_alpha_50">#80ffffff</color>
+    <color name="white_alpha_75">#c0ffffff</color>
+    <color name="white_alpha_90">#e5ffffff</color>
+    <color name="white_alpha_60">#9affffff</color>
+    <color name="profile_shadow">#40000000</color>
+    <color name="profile_title">#e5ddf1</color>
+    <color name="main_red">#fa7886</color>
+    <color name="main_purple">#af92d7</color>
+    <color name="main_blue">#34ced9</color>
+    <color name="main_yellow">#fcdc36</color>
+    <color name="main_orange">#ffa941</color>
+    <color name="main_red_selected">#de6270</color>
+    <color name="main_purple_selected">#9b7dc3</color>
+    <color name="main_blue_selected">#37b8c1</color>
+    <color name="main_yellow_selected">#f7c100</color>
+    <color name="main_orange_selected">#ee8200</color>
+    <color name="divider_bg">#e5e5e5</color>
+    <color name="tutorial_notice_bg">#b2000000</color>
+    <color name="default_event_color">#c0bfbc</color>
+    <color name="actionbar_background">#5A9CDF</color>
+    <color name="select_green">#70D5B7</color>
+    <color name="select_red">#FB7A80</color>
+    
+</resources>

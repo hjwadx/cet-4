@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@drawable/menubar_leftbtn_bg"/>
+    <item>
+        <shape>
+            <solid android:color="@color/black_alpha_03" />
+        </shape>
+    </item>
+
+</layer-list>

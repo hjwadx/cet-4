@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <FrameLayout
+        android:id="@+id/menu_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" >
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="center"
+            android:visibility="gone"
+            android:src="@drawable/menubar_btn_icon_menu" />
+
+        <TextView
+            android:id="@+id/menu_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:text="返回" />
+    </FrameLayout>
+    
+    <ImageView 
+		    android:visibility="gone"
+		    android:layout_margin="7dp"
+		    android:layout_alignTop="@+id/menu_layout"
+		    android:layout_alignRight="@+id/menu_layout"
+		    android:id="@+id/menu_redpoint"
+		    android:layout_width="8dp"
+		    android:layout_height="8dp"
+		    android:scaleType="fitCenter"
+		    android:src="@drawable/shape_menubtn_redpoint"/>
+
+    <TextView
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="注册"
+        android:textColor="@color/white"
+        android:textSize="19sp" >
+    </TextView>
+
+    <FrameLayout
+        android:id="@+id/right_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" >
+
+        <ImageView
+            android:id="@+id/action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="center"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/action_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:visibility="gone" />
+    </FrameLayout>
+</merge>

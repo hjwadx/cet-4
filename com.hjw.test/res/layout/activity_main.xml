@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+    
+    <com.hjw.test.MyLinearLayout
+        android:id="@+id/parent_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        
+        <com.hjw.test.MyLinearLayout2
+            android:id="@+id/parent_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <com.hjw.test.MyButton
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:text="hahahahha" />
+
+            <com.hjw.test.MyImageview
+                android:id="@+id/imageview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:src="@drawable/ic_launcher" />
+        </com.hjw.test.MyLinearLayout2>
+        
+    </com.hjw.test.MyLinearLayout>
+
+</RelativeLayout>
